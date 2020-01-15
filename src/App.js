@@ -5,7 +5,7 @@ import { EvaIconsPack } from '@ui-kitten/eva-icons';
 
 import { mapping, light as lightTheme } from '@eva-design/eva';
 import { Provider } from 'react-redux';
-import Colors from './constants/colors';
+import Colors from './styles/colors';
 import Routes from './navigation';
 import appTheme from './styles/custom-theme.json';
 import store from './store';

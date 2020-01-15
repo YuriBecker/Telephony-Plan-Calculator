@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { View, StyleSheet } from 'react-native';
 import { Text, Input, Button } from '@ui-kitten/components';
-import { useDispatch, useSelector } from 'react-redux';
-import colors from '../../constants/colors';
-import { NextIcon } from '../Icons';
-import { actions as userActions } from '../../store/ducks/user';
+import { useDispatch } from 'react-redux';
+import colors from '../../../../styles/colors';
+import { NextIcon } from '../../../../components/Icons';
+import { actions as userActions } from '../../../../store/ducks/user';
 
 const styles = StyleSheet.create({
   wrapper: {},

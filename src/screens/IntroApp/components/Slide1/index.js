@@ -1,9 +1,9 @@
 import React from 'react';
 import { View, Image, StyleSheet } from 'react-native';
 import { Text } from '@ui-kitten/components';
-import Images from '../../constants/images';
-import colors from '../../constants/colors';
-import { NextIcon } from '../Icons';
+import Images from '../../../../constants/images';
+import colors from '../../../../styles/colors';
+import { PhoneIcon } from '../../../../components/Icons';
 
 const styles = StyleSheet.create({
   wrapper: {},
@@ -26,9 +26,8 @@ const index = () => {
         <Text category="h1" style={styles.text}>
           FaleMais
         </Text>
-        <NextIcon
+        <PhoneIcon
           fill={colors.primary}
-          name="phone-outline"
           width={38}
           height={38}
           style={{ marginTop: 5, marginLeft: 5 }}
