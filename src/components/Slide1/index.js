@@ -3,6 +3,7 @@ import { View, Image, StyleSheet } from 'react-native';
 import { Text } from '@ui-kitten/components';
 import Images from '../../constants/images';
 import colors from '../../constants/colors';
+import { NextIcon } from '../Icons';
 
 const styles = StyleSheet.create({
   wrapper: {},
@@ -10,7 +11,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: colors.green[1],
+    backgroundColor: colors.black[1],
   },
   text: {
     color: colors.primary,
@@ -21,10 +22,19 @@ const styles = StyleSheet.create({
 const index = () => {
   return (
     <View style={styles.slide} level={20}>
-      <Text category="h1" style={styles.text}>
-        FaleMais
-      </Text>
-      <Text category="h5" style={styles.text}>
+      <View style={{ flexDirection: 'row' }}>
+        <Text category="h1" style={styles.text}>
+          FaleMais
+        </Text>
+        <NextIcon
+          fill={colors.primary}
+          name="phone-outline"
+          width={38}
+          height={38}
+          style={{ marginTop: 5, marginLeft: 5 }}
+        />
+      </View>
+      <Text category="p2" style={styles.text}>
         Planos de Telefonia
       </Text>
 
