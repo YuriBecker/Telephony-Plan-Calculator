@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { View, StyleSheet } from 'react-native';
 import { Text, Input, Button } from '@ui-kitten/components';
+import { useDispatch, useSelector } from 'react-redux';
 import colors from '../../constants/colors';
 import { NextIcon } from '../Icons';
+import { actions as userActions } from '../../store/ducks/user';
 
 const styles = StyleSheet.create({
   wrapper: {},
@@ -10,7 +12,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: colors.green[1],
+    backgroundColor: colors.black[1],
   },
   text: {
     color: colors.primary,
@@ -19,20 +21,34 @@ const styles = StyleSheet.create({
 });
 
 const index = ({ navigation }) => {
+  const dispatch = useDispatch();
+  const [value, setValue] = useState('');
+  const [error, setError] = useState(false);
+
   return (
     <View style={styles.slide}>
       <Text category="h2" style={styles.text}>
         Qual o seu nome?
       </Text>
       <Input
-        placeholder="Ex: Yuri"
+        placeholder="Digite aqui"
         size="small"
         style={{ width: '60%', margin: 20 }}
+        value={value}
+        status={error && 'danger'}
+        onChangeText={setValue}
       />
       <Button
         style={{ marginTop: 10 }}
         icon={NextIcon}
-        onPress={() => navigation.navigate('MainApp')}
+        onPress={() => {
+          if (value) {
+            dispatch(userActions.setName(value));
+            navigation.navigate('MainApp');
+          } else {
+            setError(true);
+          }
+        }}
       >
         Entrar
       </Button>
