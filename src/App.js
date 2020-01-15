@@ -4,21 +4,23 @@ import { ApplicationProvider, IconRegistry } from '@ui-kitten/components';
 import { EvaIconsPack } from '@ui-kitten/eva-icons';
 
 import { mapping, light as lightTheme } from '@eva-design/eva';
+import { Provider } from 'react-redux';
 import Colors from './constants/colors';
 import Routes from './navigation';
 import appTheme from './styles/custom-theme.json';
+import store from './store';
 
 const theme = { ...lightTheme, ...appTheme };
 
 const App = () => {
   return (
-    <>
+    <Provider store={store}>
       <IconRegistry icons={EvaIconsPack} />
       <ApplicationProvider mapping={mapping} theme={theme}>
-        <StatusBar backgroundColor={Colors.green[1]} barStyle="dark-content" />
+        <StatusBar backgroundColor={Colors.black[1]} barStyle="ligth-content" />
         <Routes />
       </ApplicationProvider>
-    </>
+    </Provider>
   );
 };
 
