@@ -1,0 +1,156 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing DDDSelect component should render correctly 1`] = `
+<Fragment>
+  <TextComponent
+    category="h5"
+    style={
+      Object {
+        "color": "#1db954",
+        "marginVertical": 15,
+        "textAlign": "center",
+      }
+    }
+  >
+    DDD Origem
+  </TextComponent>
+  <LayoutComponent
+    style={
+      Object {
+        "backgroundColor": "#212121",
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "margin": 15,
+      }
+    }
+  >
+    <ButtonComponent
+      appearance="filled"
+      key="011"
+      onPress={[Function]}
+      style={
+        Object {
+          "marginHorizontal": 3,
+        }
+      }
+    >
+      011
+    </ButtonComponent>
+    <ButtonComponent
+      appearance="filled"
+      key="016"
+      onPress={[Function]}
+      style={
+        Object {
+          "marginHorizontal": 3,
+        }
+      }
+    >
+      016
+    </ButtonComponent>
+    <ButtonComponent
+      appearance="filled"
+      key="017"
+      onPress={[Function]}
+      style={
+        Object {
+          "marginHorizontal": 3,
+        }
+      }
+    >
+      017
+    </ButtonComponent>
+    <ButtonComponent
+      appearance="filled"
+      key="018"
+      onPress={[Function]}
+      style={
+        Object {
+          "marginHorizontal": 3,
+        }
+      }
+    >
+      018
+    </ButtonComponent>
+  </LayoutComponent>
+  <TextComponent
+    category="h5"
+    style={
+      Object {
+        "color": "#1db954",
+        "marginVertical": 15,
+        "textAlign": "center",
+      }
+    }
+  >
+    DDD Destino
+  </TextComponent>
+  <LayoutComponent
+    style={
+      Object {
+        "backgroundColor": "#212121",
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "margin": 15,
+      }
+    }
+  >
+    <ButtonComponent
+      appearance="filled"
+      disabled={true}
+      key="011"
+      onPress={[Function]}
+      previousBtnText="Voltar"
+      style={
+        Object {
+          "marginHorizontal": 3,
+        }
+      }
+    >
+      011
+    </ButtonComponent>
+    <ButtonComponent
+      appearance="filled"
+      disabled={true}
+      key="016"
+      onPress={[Function]}
+      previousBtnText="Voltar"
+      style={
+        Object {
+          "marginHorizontal": 3,
+        }
+      }
+    >
+      016
+    </ButtonComponent>
+    <ButtonComponent
+      appearance="filled"
+      disabled={true}
+      key="017"
+      onPress={[Function]}
+      previousBtnText="Voltar"
+      style={
+        Object {
+          "marginHorizontal": 3,
+        }
+      }
+    >
+      017
+    </ButtonComponent>
+    <ButtonComponent
+      appearance="filled"
+      disabled={true}
+      key="018"
+      onPress={[Function]}
+      previousBtnText="Voltar"
+      style={
+        Object {
+          "marginHorizontal": 3,
+        }
+      }
+    >
+      018
+    </ButtonComponent>
+  </LayoutComponent>
+</Fragment>
+`;
