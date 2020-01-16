@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing DurationTimeSelect component should render correctly 1`] = `
+<Fragment>
+  <TextComponent
+    category="h5"
+    style={
+      Object {
+        "color": "#1db954",
+        "marginVertical": 15,
+        "textAlign": "center",
+      }
+    }
+  >
+    Quantos minutos de ligação?
+  </TextComponent>
+  <InputSpinner
+    activeOpacity={0.85}
+    arrows={false}
+    background="transparent"
+    buttonFontFamily={null}
+    buttonFontSize={25}
+    buttonLeftDisabled={false}
+    buttonLeftText={null}
+    buttonPressStyle={Object {}}
+    buttonPressTextColor="#FFFFFF"
+    buttonRightDisabled={false}
+    buttonRightText={null}
+    buttonStyle={Object {}}
+    buttonTextColor="#FFFFFF"
+    color="#1db954"
+    colorLeft="#3E525F"
+    colorMax="#1db954"
+    colorMin="#1db954"
+    colorPress="#3E525F"
+    colorRight="#3E525F"
+    disabled={false}
+    editable={true}
+    fontFamily={null}
+    fontSize={18}
+    height={50}
+    inputStyle={
+      Object {
+        "color": "#1db954",
+      }
+    }
+    max={999}
+    min={0}
+    onChange={[MockFunction]}
+    precision={2}
+    rounded={true}
+    showBorder={false}
+    step={1}
+    style={Object {}}
+    textColor="#000000"
+    type="int"
+    value={1}
+    width={150}
+  />
+</Fragment>
+`;
