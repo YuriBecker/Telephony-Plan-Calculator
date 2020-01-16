@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing PlanSelect component should render correctly 1`] = `
+<Fragment>
+  <TextComponent
+    category="h5"
+    style={
+      Object {
+        "color": "#1db954",
+        "marginVertical": 15,
+        "textAlign": "center",
+      }
+    }
+  >
+    Qual o plano escolhido?
+  </TextComponent>
+  <LayoutComponent
+    style={
+      Object {
+        "backgroundColor": "#212121",
+        "flexDirection": "column",
+        "justifyContent": "center",
+        "margin": 15,
+      }
+    }
+  >
+    <ButtonComponent
+      appearance="filled"
+      key="FaleMais 30"
+      onPress={[Function]}
+      previousBtnText="Voltar"
+      size="giant"
+      style={
+        Object {
+          "marginVertical": 15,
+        }
+      }
+    >
+      FaleMais 30
+    </ButtonComponent>
+    <ButtonComponent
+      appearance="filled"
+      key="FaleMais 60"
+      onPress={[Function]}
+      previousBtnText="Voltar"
+      size="giant"
+      style={
+        Object {
+          "marginVertical": 15,
+        }
+      }
+    >
+      FaleMais 60
+    </ButtonComponent>
+    <ButtonComponent
+      appearance="filled"
+      key="FaleMais 120"
+      onPress={[Function]}
+      previousBtnText="Voltar"
+      size="giant"
+      style={
+        Object {
+          "marginVertical": 15,
+        }
+      }
+    >
+      FaleMais 120
+    </ButtonComponent>
+  </LayoutComponent>
+</Fragment>
+`;
