@@ -3,7 +3,7 @@ import { View, Image, StyleSheet } from 'react-native';
 import { Text } from '@ui-kitten/components';
 import Images from '../../../../constants/images';
 import colors from '../../../../styles/colors';
-import { PhoneIcon } from '../../../../components/Icons';
+import FaleMaisLogo from '../../../../components/FaleMaisLogo';
 
 const styles = StyleSheet.create({
   wrapper: {},
@@ -22,17 +22,7 @@ const styles = StyleSheet.create({
 const index = () => {
   return (
     <View style={styles.slide} level={20}>
-      <View style={{ flexDirection: 'row' }}>
-        <Text category="h1" style={styles.text}>
-          FaleMais
-        </Text>
-        <PhoneIcon
-          fill={colors.primary}
-          width={38}
-          height={38}
-          style={{ marginTop: 5, marginLeft: 5 }}
-        />
-      </View>
+      <FaleMaisLogo iconWidth={38} iconHeight={38} />
       <Text category="p2" style={styles.text}>
         Planos de Telefonia
       </Text>
