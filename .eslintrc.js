@@ -1,6 +1,7 @@
 module.exports = {
   env: {
     es6: true,
+    "jest": true
   },
   extends: ['airbnb', 'prettier', 'prettier/react'],
   globals: {
@@ -32,5 +33,6 @@ module.exports = {
     'react/prop-types': 'off',
     'no-param-reassign': 'off',
     'no-console': 'off',
+    "import/no-extraneous-dependencies": ["error", {"devDependencies": true}]
   },
 };
