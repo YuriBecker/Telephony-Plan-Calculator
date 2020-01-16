@@ -2,7 +2,7 @@ import React from 'react';
 import { StatusBar } from 'react-native';
 import { ApplicationProvider, IconRegistry } from '@ui-kitten/components';
 import { EvaIconsPack } from '@ui-kitten/eva-icons';
-
+import FlashMessage from 'react-native-flash-message';
 import { mapping, light as lightTheme } from '@eva-design/eva';
 import { Provider } from 'react-redux';
 import Colors from './styles/colors';
@@ -19,6 +19,7 @@ const App = () => {
       <ApplicationProvider mapping={mapping} theme={theme}>
         <StatusBar backgroundColor={Colors.black[1]} barStyle="ligth-content" />
         <Routes />
+        <FlashMessage position="top" animated />
       </ApplicationProvider>
     </Provider>
   );
