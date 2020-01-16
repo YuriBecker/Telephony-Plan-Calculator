@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing FaleMaisLogo component should render correctly - Default: Default  snapshot 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+    }
+  }
+>
+  <TextComponent
+    category="h1"
+    style={
+      Object {
+        "color": "#1db954",
+        "fontWeight": "bold",
+      }
+    }
+  >
+    FaleMais
+  </TextComponent>
+  <PhoneIcon
+    fill="#1db954"
+    height={38}
+    style={
+      Object {
+        "marginLeft": 5,
+        "marginTop": 5,
+      }
+    }
+    width={38}
+  />
+</View>
+`;
+
+exports[`Testing FaleMaisLogo component should render correctly - Diferent icon size: Diferent icon size snapshot 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+    }
+  }
+>
+  <TextComponent
+    category="h1"
+    style={
+      Object {
+        "color": "#1db954",
+        "fontWeight": "bold",
+      }
+    }
+  >
+    FaleMais
+  </TextComponent>
+  <PhoneIcon
+    fill="#1db954"
+    height={24}
+    style={
+      Object {
+        "marginLeft": 5,
+        "marginTop": 5,
+      }
+    }
+    width={24}
+  />
+</View>
+`;
+
+exports[`Testing FaleMaisLogo component should render correctly - Diferent text category: Diferent text category 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+    }
+  }
+>
+  <TextComponent
+    category="h2"
+    style={
+      Object {
+        "color": "#1db954",
+        "fontWeight": "bold",
+      }
+    }
+  >
+    FaleMais
+  </TextComponent>
+  <PhoneIcon
+    fill="#1db954"
+    height={38}
+    style={
+      Object {
+        "marginLeft": 5,
+        "marginTop": 5,
+      }
+    }
+    width={38}
+  />
+</View>
+`;
