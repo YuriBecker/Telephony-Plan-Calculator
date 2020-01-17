@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Header component should render correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#212121",
+      "height": "15%",
+      "justifyContent": "center",
+    }
+  }
+>
+  <index
+    category="h1"
+    style={
+      Object {
+        "fontWeight": "bold",
+        "marginBottom": 20,
+      }
+    }
+  >
+    Some text
+  </index>
+</View>
+`;
