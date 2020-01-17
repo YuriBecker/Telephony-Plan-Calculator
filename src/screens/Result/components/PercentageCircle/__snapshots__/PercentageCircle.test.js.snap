@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing PercentageCircle component should render correctly 1`] = `
+<View
+  style={Object {}}
+>
+  <PercentageCircle
+    bgColor="#212121"
+    borderWidth={4}
+    color="#1db954"
+    containerStyle={null}
+    percent={37}
+    radius={50}
+    shadowColor="#b3b3b3"
+    style={Object {}}
+  >
+    <TextComponent
+      style={
+        Object {
+          "color": "#1db954",
+          "fontSize": 20,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      37%
+    </TextComponent>
+  </PercentageCircle>
+</View>
+`;
