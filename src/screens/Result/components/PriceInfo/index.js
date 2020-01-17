@@ -26,7 +26,7 @@ const index = ({ text, price, negative, containerStyle }) => {
         style={{ marginLeft: 20, color: newStyle, fontWeight: 'bold' }}
         category="h3"
       >
-        {`R$ ${price}`}
+        {`R$ ${price.replace('.', ',')}`}
       </TextTitle>
     </View>
   );
@@ -36,7 +36,7 @@ export default index;
 
 index.propTypes = {
   text: PropTypes.string.isRequired,
-  price: PropTypes.number.isRequired,
+  price: PropTypes.string.isRequired,
   negative: PropTypes.bool,
   containerStyle: ViewPropTypes.style,
 };
