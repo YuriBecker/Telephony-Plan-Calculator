@@ -19,12 +19,12 @@ const index = ({ text, price, negative, containerStyle }) => {
         containerStyle,
       ]}
     >
-      <TextTitle style={{ color: newStyle }} category="h3">
+      <TextTitle style={{ color: newStyle }} category="h4">
         {text}
       </TextTitle>
       <TextTitle
         style={{ marginLeft: 20, color: newStyle, fontWeight: 'bold' }}
-        category="h3"
+        category="h4"
       >
         {`R$ ${price.replace('.', ',')}`}
       </TextTitle>

@@ -31,7 +31,7 @@ const index = ({ selectedPlan, setSelectedPlan }) => {
             onPress={() => setSelectedPlan(plan.text)}
             key={plan.text}
             style={{ marginVertical: 15 }}
-            size="giant"
+            size="large"
             appearance={plan.text === selectedPlan ? 'outline' : 'filled'}
           >
             {plan.text}

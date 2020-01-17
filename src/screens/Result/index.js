@@ -55,7 +55,7 @@ const index = ({ navigation }) => {
         />
         <View style={{ justifyContent: 'space-around', alignItems: 'center' }}>
           <TextTitle
-            category="h3"
+            category="h4"
             style={{ marginBottom: 20, fontWeight: 'bold' }}
           >
             {`${name}, ${
@@ -84,7 +84,7 @@ const index = ({ navigation }) => {
         </View>
 
         <NewConsultButton
-          size="giant"
+          size="large"
           onPress={() => navigation.navigate('Form')}
           style={{ marginBottom: 20 }}
         >
