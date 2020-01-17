@@ -2,8 +2,9 @@ import React, { useState } from 'react';
 import { View, StyleSheet } from 'react-native';
 import { Text, Input, Button } from '@ui-kitten/components';
 import { useDispatch } from 'react-redux';
+import { showMessage } from 'react-native-flash-message';
 import colors from '../../../../styles/colors';
-import { NextIcon } from '../../../../components/Icons';
+import { NextIcon } from '../../../../components/Icons/Icons';
 import { actions as userActions } from '../../../../store/ducks/user';
 
 const styles = StyleSheet.create({
@@ -25,6 +26,20 @@ const index = ({ navigation }) => {
   const [value, setValue] = useState('');
   const [error, setError] = useState(false);
 
+  const handleSubmit = () => {
+    if (value) {
+      dispatch(userActions.setName(value));
+      navigation.navigate('MainApp');
+    } else {
+      showMessage({
+        message: 'Digite seu nome para continuar!',
+        type: 'danger',
+        floating: true,
+      });
+      setError(true);
+    }
+  };
+
   return (
     <View style={styles.slide}>
       <Text category="h2" style={styles.text}>
@@ -33,22 +48,17 @@ const index = ({ navigation }) => {
       <Input
         placeholder="Digite aqui"
         size="small"
-        style={{ width: '60%', margin: 20 }}
+        style={{ width: '60%', margin: 20, backgroundColor: colors.black[1] }}
+        textStyle={{ color: colors.primary }}
         value={value}
         status={error && 'danger'}
         onChangeText={setValue}
+        onSubmitEditing={() => handleSubmit()}
       />
       <Button
         style={{ marginTop: 10 }}
         icon={NextIcon}
-        onPress={() => {
-          if (value) {
-            dispatch(userActions.setName(value));
-            navigation.navigate('MainApp');
-          } else {
-            setError(true);
-          }
-        }}
+        onPress={() => handleSubmit()}
       >
         Entrar
       </Button>
