@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing TextTitle component should render correctly 1`] = `
+<TextComponent
+  category="h2"
+  style={
+    Array [
+      Object {
+        "color": "#1db954",
+        "textAlign": "center",
+      },
+      undefined,
+    ]
+  }
+>
+   Some Title
+</TextComponent>
+`;
