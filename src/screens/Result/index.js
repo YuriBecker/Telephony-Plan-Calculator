@@ -8,7 +8,6 @@ import Container from './components/Container';
 import TextTitle from './components/TextTitle';
 import NewConsultButton from './components/NewConsultButton';
 import PriceInfo from './components/PriceInfo';
-import colors from '../../styles/colors';
 import priceWithPlanNotZero from '../../utils/priceWithPlanNotZero';
 import finalPriceWithPlan from '../../utils/finalPriceWithPlan';
 import finalPriceWithoutPlan from '../../utils/finalPriceWithoutPlan';
@@ -74,7 +73,10 @@ const index = ({ navigation }) => {
                 />
               ) : (
                 <TextTitle category="h3" style={{ fontWeight: 'bold' }}>
-                  R$ {(priceWithoutPlan - priceWithPlan).toFixed(2)}
+                  R${' '}
+                  {(priceWithoutPlan - priceWithPlan)
+                    .toFixed(2)
+                    .replace('.', ',')}
                 </TextTitle>
               )}
             </>

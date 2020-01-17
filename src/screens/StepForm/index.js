@@ -110,7 +110,7 @@ const index = ({ navigation }) => {
           </View>
         </ProgressStep>
         <ProgressStep
-          label="Tempo Ligação"
+          label="Duração"
           nextBtnTextStyle={{ color: colors.primary }}
           previousBtnTextStyle={{ color: colors.primary }}
           nextBtnText="Continuar"
