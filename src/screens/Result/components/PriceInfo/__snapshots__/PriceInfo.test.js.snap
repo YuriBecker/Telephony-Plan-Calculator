@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing PriceInfo component should render correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "borderBottomColor": "#1db954",
+        "borderBottomWidth": 3,
+        "borderRadius": 8,
+        "flexDirection": "row",
+        "padding": 5,
+      },
+      Object {},
+    ]
+  }
+>
+  <index
+    category="h3"
+    style={
+      Object {
+        "color": "#1db954",
+      }
+    }
+  >
+    Some text
+  </index>
+  <index
+    category="h3"
+    style={
+      Object {
+        "color": "#1db954",
+        "fontWeight": "bold",
+        "marginLeft": 20,
+      }
+    }
+  >
+    R$ 77
+  </index>
+</View>
+`;
