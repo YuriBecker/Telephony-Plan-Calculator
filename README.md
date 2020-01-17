@@ -3,14 +3,12 @@
 
 ### Prerequisites
 
-What things you need to install and run the software 
-
 - Yarn or NPM
 - Node.js
 - Version 8 of the Java SE Development Kit (JDK)
 - Android development environment
 
-**See how to install <a href="https://facebook.github.io/react-native/docs/getting-started" target="_blank">`here`</a>**
+**See more details <a href="https://facebook.github.io/react-native/docs/getting-started" target="_blank">`here`</a>**
 
 
 ### Running
