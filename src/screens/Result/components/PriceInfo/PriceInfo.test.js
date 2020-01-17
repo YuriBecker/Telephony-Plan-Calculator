@@ -7,7 +7,7 @@ describe('Testing PriceInfo component', () => {
   let wrapper;
 
   beforeEach(() => {
-    wrapper = shallow(<PriceInfo text="Some text" price={77} />);
+    wrapper = shallow(<PriceInfo text="Some text" price="77.50" />);
   });
 
   it('should render correctly', () => expect(wrapper).toMatchSnapshot());

@@ -35,7 +35,7 @@ exports[`Testing PriceInfo component should render correctly 1`] = `
       }
     }
   >
-    R$ 77
+    R$ 77,50
   </index>
 </View>
 `;
