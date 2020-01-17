@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Container component should render correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#212121",
+      "flex": 1,
+      "justifyContent": "space-around",
+      "padding": 30,
+    }
+  }
+>
+  Some data
+</View>
+`;
