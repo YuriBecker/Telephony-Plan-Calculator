@@ -1,4 +1,4 @@
-# Vizir Challenge
+# Telephony-Plan-Calculator
 
 
 ### Prerequisites
