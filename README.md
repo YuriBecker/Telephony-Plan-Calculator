@@ -13,11 +13,11 @@
 ### Images
 
 <p float="left">
-<img src="https://user-images.githubusercontent.com/29691975/92496902-1faa4c00-f1cf-11ea-891f-e71987d07511.jpeg" alt="drawing" width="300"/> 
-<img src="https://user-images.githubusercontent.com/29691975/92496949-2cc73b00-f1cf-11ea-8419-aa6e9fb71c68.jpeg" alt="drawing" width="300"/> 
-<img src="https://user-images.githubusercontent.com/29691975/92496956-2df86800-f1cf-11ea-8205-606b94b796cf.jpeg" alt="drawing" width="300"/> 
-<img src="https://user-images.githubusercontent.com/29691975/92496960-2f299500-f1cf-11ea-824f-64b615e798bf.jpeg" alt="drawing" width="300"/> 
-<img src="https://user-images.githubusercontent.com/29691975/92497415-b119be00-f1cf-11ea-8da1-fe9dd0f202f0.jpeg" alt="drawing" width="300"/> 
+<img src="https://user-images.githubusercontent.com/29691975/92496902-1faa4c00-f1cf-11ea-891f-e71987d07511.jpeg" alt="drawing" width="250"/> 
+<img src="https://user-images.githubusercontent.com/29691975/92496949-2cc73b00-f1cf-11ea-8419-aa6e9fb71c68.jpeg" alt="drawing" width="250"/> 
+<img src="https://user-images.githubusercontent.com/29691975/92496956-2df86800-f1cf-11ea-8205-606b94b796cf.jpeg" alt="drawing" width="250"/> 
+<img src="https://user-images.githubusercontent.com/29691975/92496960-2f299500-f1cf-11ea-824f-64b615e798bf.jpeg" alt="drawing" width="250"/> 
+<img src="https://user-images.githubusercontent.com/29691975/92497415-b119be00-f1cf-11ea-8da1-fe9dd0f202f0.jpeg" alt="drawing" width="250"/> 
   
 </p>
 
